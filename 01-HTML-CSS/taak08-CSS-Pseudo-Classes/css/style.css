@@ -5,9 +5,22 @@
 
 .menu li{
     display: inline-block;
+    text-decoration: none;
 }
 
 .menu li a{
     background-color: lightskyblue;
     padding: 10px;
+}
+.menu li a:hover{
+    color: black;
+    cursor: pointer;
+}
+.menu li:hover{
+    background-color: red;
+
+}
+.menu {
+    text-align: center;
+    text-transform: capitalize;
 }

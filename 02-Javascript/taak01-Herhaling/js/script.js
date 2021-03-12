@@ -1,6 +1,7 @@
 let strNaam;
 let boolNaamKlopt;
 let naamKloptBijna;
+let naamKloptNiet;
 
 strNaam= prompt("hoe heet je?");
 boolNaamKlopt = confirm("heet je echt " + strNaam);
@@ -15,5 +16,6 @@ else{
     if(naamKloptBijna == true){
     alert("welkom ")
 }
-    else{("toch welkom! " +strNaam)
+    else{
+        naamKloptNiet= alert("toch welkom! ")
 };
