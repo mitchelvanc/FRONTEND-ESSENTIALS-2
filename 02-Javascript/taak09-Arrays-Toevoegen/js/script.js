@@ -19,5 +19,5 @@ for(i = 0; i < topFilms.length; i++){
 }
 
 function kiesFilm(){
-
+    prompt("nummer 1 film");
 }
